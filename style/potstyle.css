@@ -1,0 +1,120 @@
+/* Index (home) page section */
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', Helvetica, sans-serif; ;
+}
+.Main-Container {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+/* Navigation bar */
+.nav-bar{
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+}
+.navigation-home{
+    /* display: flex; */
+    border: 2px solid;
+    background-color: brown;
+    border-color: gold;
+    margin-right: 950px;
+    padding-right: 0px;
+}
+.navigation-links{
+    border: 2px solid;
+    background-color:brown;
+    border-color: gold;
+    margin-right: 1px;
+    padding-right: 0px;
+}
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  /* mouse over link */
+  a:hover {
+    color: green;
+  }
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  .sub-container{
+      width: 60%;
+  }
+
+  /* Title and text description section */
+  .header{
+      width: 80%;
+      color: brown;
+  }
+  .para{
+      width: 72%;
+      margin: 1%;
+      align-content: center;
+      color: brown;
+  }
+  /* This is the title and 3 pothole photo section of page */
+  .content-container {
+width: 90%;
+  }
+  .pic-container{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      color: brown;
+  }
+  .pic-container h1{
+      text-align: center;
+  }
+  .pearls{
+      width: 33%;
+  }
+  .saltSand{
+      width: 33%;
+  }
+  .fractal{
+      width: 33%;
+  }
+  .fractal img{
+    width: 180px;
+    height: 180px; 
+  }
+  /* Map page section of website */
+
+  .image {
+      display: flex;
+      justify-content: center;
+  }
+
+  .image img{
+      height: 400px;
+      width: 600px;
+  }
+  .map-header h1 {
+      color: brown;
+  }
+  h1 {
+      display: flex;
+      justify-content: center;
+  }
+  /* Add new pothole page section of website */
+  .addNew-header h1 {
+      color: brown;
+  }
+  .login-button P {
+      display: flex;
+      color: brown;
+      justify-content: center;
+  }
+  .addbutton-container {
+      display: flex;
+      justify-content: center;
+
+  }
